@@ -1,0 +1,58 @@
+
+@import '../../.cache/wal/colors-waybar.css';
+
+
+* {
+	background-image: none;
+	box-shadow: none;
+        font-family: 'JetBrains Mono';
+}
+window {
+    background-color: rgba(17, 17, 17, 0.75)
+}
+
+button {
+    border: 1px solid #2b2b2b;	
+    border-radius: 50px;
+    margin: 20px;
+    color: #ffffff;
+    background-color: rgba(25, 25, 25, 0.5);
+    outline-style: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    box-shadow: none;
+    text-shadow: none;
+    animation: gradient_f 3s ease-in infinite;
+}
+
+button:hover,button:focus {
+    background-size: 30%;
+    background-color: alpha(@color15, 0.15);
+    animation: gradient_f 2s ease-in infinite;
+    transition: all 0.15s cubic-bezier(.55,0.0,.28,1.682);
+}
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/sleep.png"));
+}
+
+#hibernate {
+    background-image: image(url("./icons/hibernate.png"));
+}

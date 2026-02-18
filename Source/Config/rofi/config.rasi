@@ -1,0 +1,107 @@
+/* Rofi Config */
+
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
+
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: " ";
+    drun-display-format: "{name}";
+    cursor: default;
+}
+
+* {
+    background-color: @background;
+    text-color:         @foreground;
+    font: "Radio Canada Big 12";
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+}
+
+window {
+    location:       north;
+    y-offset:       calc(50% - 176px);
+    width:          480;
+    border: 2px;
+    border-color: @selected-normal-background;
+    border-radius:  16px;
+}
+
+mainbox {
+    padding:    12px;
+}
+
+inputbar {
+    background-color:   transparent;
+    border:         2px;
+    border-color: @selected-normal-background; 
+    border-radius:  10px;
+    padding:    10px 16px;
+    spacing:    8px;
+    children:   [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+}
+
+entry {
+    background-color: transparent;
+    font: "Radio Canada Big 13";
+}
+
+message {
+    background-color: transparent;
+    margin:             12px 0 0;
+    border-radius:      16px;
+    border-color:       #3D3D3D80;
+}
+
+textbox {
+    background-color: transparent;
+    padding:    8px 24px;
+}
+
+listview {
+    background-color:   transparent;
+    margin:     12px 0 0;
+    lines:      7;
+    columns:    1;
+    fixed-height: false;
+}
+
+element {
+    background-color: transparent;
+    padding:        8px 16px;
+    spacing:        15px;
+    border-radius:  16px;
+}
+
+element normal active {
+    background-color: transparent;
+    text-color: #616161F2;
+}
+
+element alternate active {
+    background-color: transparent;
+    text-color: #616161F2;
+}
+
+element selected normal, element selected active {
+    background-color: @selected-normal-background;
+    border-radius: 10px;
+    border: 1px;
+    text-color: @selected-normal-foreground;
+}
+
+element-icon {
+    background-color: transparent;
+    size:           22px;
+    vertical-align: 0.5;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}

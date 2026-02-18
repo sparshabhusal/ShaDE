@@ -1,0 +1,38 @@
+
+@import "../../.cache/wal/colors-waybar.css";
+
+window {
+  background-color: alpha(@background, 0.85);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1.75px;
+  border-color: alpha(@color15, 0.5);
+}
+
+#box {
+  padding: 10px;
+}
+
+button, image {
+	background: none;
+	border-style: none;
+	box-shadow: none;
+	color: #ffffff;
+}
+
+button {
+	padding: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	color: #eee;
+        font-size: 12px
+}
+
+button:hover {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+button:focus {
+	box-shadow: none;
+}

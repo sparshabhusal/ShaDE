@@ -1,0 +1,18 @@
+2026/02/18-13:23:06.318 42ea8 Reusing MANIFEST /home/sparsha/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/02/18-13:23:06.328 42ea8 Recovering log #88
+2026/02/18-13:23:06.328 42ea8 Reusing old log /home/sparsha/.config/vesktop/sessionData/Local Storage/leveldb/000088.log 
+2026/02/18-13:24:06.333 42ea8 Level-0 table #92: started
+2026/02/18-13:24:06.338 42ea8 Level-0 table #92: 37020 bytes OK
+2026/02/18-13:24:06.342 42ea8 Delete type=0 #88
+2026/02/18-13:24:06.342 42ea8 Compacting 4@0 + 1@1 files
+2026/02/18-13:24:06.346 42ea8 Generated table #93@0: 50 keys, 64007 bytes
+2026/02/18-13:24:06.346 42ea8 Compacted 4@0 + 1@1 files => 64007 bytes
+2026/02/18-13:24:06.349 42ea8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/18-13:24:06.349 42ea8 Delete type=2 #84
+2026/02/18-13:24:06.349 42ea8 Delete type=2 #89
+2026/02/18-13:24:06.349 42ea8 Delete type=2 #86
+2026/02/18-13:24:06.349 42ea8 Delete type=2 #92
+2026/02/18-13:24:06.349 42ea8 Delete type=2 #82
+2026/02/18-13:50:20.697 42f25 Level-0 table #95: started
+2026/02/18-13:50:20.702 42f25 Level-0 table #95: 46682 bytes OK
+2026/02/18-13:50:20.705 42f25 Delete type=0 #91
