@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img width="500" height="500" alt="Heading" src="https://github.com/user-attachments/assets/83d78de4-1431-43bb-9375-5c03df3d9228" />
+  <img width="500" height="500" alt="Heading" src="https://github.com/user-attachments/assets/ad98edcd-67b3-4632-a8ae-10f7f9f602e8" />
 </div>
 
 <h2 align="center"><b>⚒️ Under Construction 🚧</b></h2>
